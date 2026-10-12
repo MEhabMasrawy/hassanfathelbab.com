@@ -5,7 +5,7 @@
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
+<head >
 
     <link rel="alternate" hreflang="ar" href="http://hassanfathelbab.com" />
 	<link rel="icon" href="images/icon.ico">
@@ -29,7 +29,7 @@
 </head>
 
 <body id="home" class="homepage">
-    <form id="form1" runat="server">
+    <form id="form1" >
         <param name="wmode" value="transparent" />
         <param name="movie" value="dewplayer-vol.swf?mp3=mp3/test1.mp3" />
         </object>
@@ -173,9 +173,12 @@
 
                     
 
-           <asp:LinkButton ID="LinkCV" class="btn btn-lg btn-danger"  Text="السيرة الذاتية" runat ="server"   onclick="btnCV_Click"  OnClientClick="document.forms[0].target ='_blank';"   />
+          <a href="files/CV.pdf"
+   target="_blank"
+   class="btn btn-lg btn-danger">
+
                         
-<%--                 <asp:Button ID="Button4" runat="server"  Text="السيرة الذاتية" CssClass="btn btn-lg btn-danger" onclick="btnpdf_Click"  OnClientClick="document.forms[0].target ='_blank';"  />--%>
+<%--                 <asp:Button ID="Button4"   Text="السيرة الذاتية" CssClass="btn btn-lg btn-danger" onclick="btnpdf_Click"  OnClientClick="document.forms[0].target ='_blank';"  />--%>
                     
 
 
@@ -746,7 +749,7 @@
                    <a href ="https://www.youtube.com/watch?v=pnLTM_cexvE" target="_blank" >
             <h4>  الانتاج الادبى للشاعر الكبير الراحل / حسن فتح الباب ..فى ذكرى الاربعين <i class="fa fa-check-square"></i>   </h4></a>
 
-                <%--<asp:image id="Image1" runat="server" imageurl="~/Images/ajax-loader.gif" xmlns:asp="#unknown" />--%>
+                <%--<asp:image id="Image1"  imageurl="~/Images/ajax-loader.gif" xmlns:asp="#unknown" />--%>
                 
                         <a href ="Files/alhadaf.pdf" target="_blank" >
                 <h4>وراء كل مبدع زوجه اكثر إبداعا - مجله الهدف, يوليو ٢٠٠٥ - الكاتب الصحفي / إيهاب الخضرجي  <i class="fa fa-check-square"></i>   </h4></a>
@@ -890,7 +893,10 @@
                    <br />
                     
 
-            <asp:LinkButton ID="LinkButton1" class="btn btn-lg btn-danger"  Text="ماذا قالوا عن وفاته" runat ="server"   onclick="btnRIP_Click"  OnClientClick="document.forms[0].target ='_blank';"   />
+         <a href="files/RIP.pdf"
+   target="_blank"
+   class="btn btn-lg btn-danger">
+   ماذا قالوا عن وفاته
 
 
 
@@ -1095,7 +1101,7 @@
                 </ul>
             </div>
 
-            <div class="portfolio-items" id="PortfolioItems"  runat="server">
+            <div class="portfolio-items" id="PortfolioItems"  >
               
                 
                   <div class="portfolio-item creative">
@@ -2639,7 +2645,7 @@
                     <form id="Form2" method="post">
 			     <p class="text-center wow fadeInDown">
                       
-                     <asp:table id="BlogTable" style="Z-INDEX: 101; LEFT: 200px; POSITION: relative; TOP: 64px" runat="server" Height="16px" Width="432px" GridLines="None"></asp:table>                    
+                     <asp:table id="BlogTable" style="Z-INDEX: 101; LEFT: 200px; POSITION: relative; TOP: 64px"  Height="16px" Width="432px" GridLines="None"></asp:table>                    
                 </p>
                      </form>
                  
@@ -2696,7 +2702,7 @@
                                 <div class="form-group">
                                     <textarea name="message" class="form-control" rows="6" placeholder="الرسالة" required></textarea>
                                 </div>
-                                <asp:LinkButton ID="link_logout" class="btn btn-danger" Text="ارسل الرسالة" OnClick="btnSubmit_Click" runat="server" />
+                                <asp:LinkButton ID="link_logout" class="btn btn-danger" Text="ارسل الرسالة" OnClick="btnSubmit_Click" />
 
                                <%-- <asp:Button  type="submit" ID="Button1"
                                 class="btn btn-danger"
@@ -2728,21 +2734,19 @@
 <%--         var name = document.getElementById("<%=name.ClientID %>").innerHTML;
 --%>
 
-         <%--<asp:ScriptManager ID="ScriptManager2" runat="server" EnablePartialRendering="true" EnablePageMethods="True" />--%>
+         <%--<asp:ScriptManager ID="ScriptManager2" EnablePartialRendering="true" EnablePageMethods="True" />--%>
 
          <%--<input type="submit" onclick="btnSubmit_Click" value="Click Me!" />--%>
 
 
 
-<%--<asp:Button ID="Button1" runat="server" Text="Button" OnClick ="btnSubmit_Click"></asp:Button>--%>
-              <%--<asp:LinkButton ID="LinkSubmitMsg" class="btn btn-danger" Text="link button" OnClick="btnSubmit_Click"  runat="server" commandArgument="name"/>--%>
+<%--<asp:Button ID="Button1" Text="Button" OnClick ="btnSubmit_Click"></asp:Button>--%>
+              <%--<asp:LinkButton ID="LinkSubmitMsg" class="btn btn-danger" Text="link button" OnClick="btnSubmit_Click"  commandArgument="name"/>--%>
                                 
-                                <asp:Button ID="btnSubmiter"                                
-                                runat="server"
-                                class="btn btn-danger"
-                                Text="ارسل الرسالة"
-                                onclick="btnSubmit_Click">
-                                </asp:Button>
+                               <a href="mailto:mohamed.ehab.ahmed@gmail.com"
+   class="btn btn-danger">
+   ارسل الرسالة
+</a>
                             </form>
        
                 </div>
