@@ -1,7 +1,27 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
-    <siteMapNode url="~/index.aspx" title="حسن فتح الباب"  description="حسن فتح الباب" >
-        <siteMapNode url="~/index.aspx" title="حسن فتح الباب"  description="حسن فتح الباب" />
-        <siteMapNode url="~/index.aspx" title="Hassan Fathel Bab"  description="Hassan Fathel Bab" />
-    </siteMapNode>
-</siteMap>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://hassanfathelbab.com/</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://hassanfathelbab.com/ManarFathelBab.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hassanfathelbab.com/EhabElKhadragy.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://hassanfathelbab.com/Kamal.html</loc>
+    <lastmod>2026-10-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>
